@@ -18,7 +18,6 @@ import matplotlib.pyplot as plot
 import numpy
 import parselmouth # package name: "praat-parselmouth"
 
-
 class Figure:
     def __init__(self, vocal_range, main_frame, current_lesson):
         def create():      
