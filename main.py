@@ -4,7 +4,7 @@ Created on 5 ago. 2019
 
 @author: Facundo
 '''
-
+#
 from activities import BaseLesson, lessons
 
 from math import log
