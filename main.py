@@ -22,7 +22,7 @@ class Figure:
     def __init__(self, vocal_range, main_frame, current_lesson):
         def create():      
             figure = plot.figure()
-            figure.set_size_inches([8.5, 8.])
+            figure.set_size_inches([7, 5.])
             
             canvas = FigureCanvasTkAgg(figure, master=self.main_frame)
             plot_widget = canvas.get_tk_widget()
@@ -90,7 +90,6 @@ class Figure:
         plot.ylim(min_note, max_note)
         plot.ylabel("Semitonos")
         
-        print((_time_variations, _note_variations))
         plot.plot(_time_variations, _note_variations, linewidth=2)
         
         plot.grid(True)

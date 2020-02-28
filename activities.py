@@ -105,8 +105,8 @@ class BaseLesson():
         text_format = """lesson_parameters={}
 lesson_level={}"""
         
-        with open(self.database, 'w') as database:
-            database.write(text_format.format(self.lesson_parameters, self.lesson_level))
+        #with open(self.database, 'w') as database:
+            #database.write(text_format.format(self.lesson_parameters, self.lesson_level))
     
     def updateCurrentLessonParameters(self):
         ppm = self.ppm
